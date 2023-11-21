@@ -1,0 +1,58 @@
+header {
+  background-color: #333;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.layout {
+  display: flex;
+
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.content-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  /* Styles for screens with a width of 768px or less */
+}
